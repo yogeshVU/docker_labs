@@ -4,8 +4,8 @@ FROM ubuntu
 # File Author / Maintainer
 MAINTAINER Example McAuthor
 
-# During the Provisiong
+# Executed during the Provisiong
 RUN echo "Docker Provisioned: Hello docker!"
 
-# During RUN of the Docker Instance
+# Executed during RUN of the Docker Instance
 CMD echo "Docker Running!! Hello WORLD"
